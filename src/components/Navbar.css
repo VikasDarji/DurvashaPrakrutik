@@ -1,0 +1,12 @@
+nav{
+    display: flex;
+    gap: 40px;
+    padding: 15px 30px;
+    background-color: rgba(229, 186, 107, 0.76);
+    border-bottom: 2px solid rgb(72 58 208 / 45%);
+    align-items: center;
+    justify-content: flex-end;
+    font-size: larger;
+    font-family: fangsong;
+    font-weight: bold;
+}
