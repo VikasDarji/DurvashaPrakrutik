@@ -1,34 +1,22 @@
-import "./App.css";
-import Navbar from "./componets/Navbar";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
-import { createBrowserRouter, RouterProvider} from 'react-router-dom'
-import { useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
-function App() { 
-  
-   const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <><Navbar/><Home/></>
-    },
-    { 
-      path: "About",
-      element:<> <Navbar/><About/></>
-    },
-    {
-      path: "Contact",
-      element: <><Navbar/><Contact/></>
-    }
-  ])
+function App() {
   return (
-    <>
-    <RouterProvider router={router}/>
-   
-    
-    <Footer/>
-    </>
+    <Router>
+      <Navbar />
+      <div style={{ padding: "20px" }}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
