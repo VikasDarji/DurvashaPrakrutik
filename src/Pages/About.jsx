@@ -7,7 +7,7 @@ const About = () => {
       <p>
         This is About Section created by abhishek...
       </p>
-      <Navbar/>
+      
     </div>
   )
 }
