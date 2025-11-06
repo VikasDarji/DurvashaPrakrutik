@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <p>
-        This is About Section...
+        This is About Section created by abhishek...
       </p>
     </div>
   )
