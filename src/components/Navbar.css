@@ -1,12 +1,33 @@
 nav{
     display: flex;
-    gap: 40px;
     padding: 15px 30px;
     background-color: rgba(229, 186, 107, 0.76);
     border-bottom: 2px solid rgb(72 58 208 / 45%);
     align-items: center;
-    justify-content: flex-end;
-    font-size: larger;
+    justify-content: space-between;
+  
     font-family: fangsong;
     font-weight: bold;
+}
+.logi{
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition:  color 0.3s ease;
+}
+.logi:hover{
+  color: #a2ff00;
+}
+.link{
+    list-style: none;
+  display: flex;
+  gap: 1rem;
+  right: 35vw;
+  
+}
+link{
+  /* cursor: pointer; */
+  transition: color 0.3s;
+}
+li:hover{
+  color: #b5b9be;
 }
