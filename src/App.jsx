@@ -1,9 +1,5 @@
 import "./App.css";
 import Navbar from "./componets/Navbar";
-import Footer from "./componets/Footer";
-import Home from "./componets/Home";
-import About from "./componets/About";
-import Contact from "./componets/Contact";
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 import { useState } from "react";
 
