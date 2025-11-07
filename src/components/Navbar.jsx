@@ -4,7 +4,7 @@ import "./Navbar.css"
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="container">
     <h1 className="logi">Welcome to our Website    </h1>
     <li className="link">
       <Link to="/" >Home</Link>
