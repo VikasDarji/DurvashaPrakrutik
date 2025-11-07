@@ -7,15 +7,9 @@ function Navbar() {
     <nav>
     <h1 className="logi">Welcome to our Website    </h1>
     <li className="link">
-      <Link to="/" style={{ textDecoration: "none", color: "#333" }}>
-        Home
-      </Link>
-      <Link to="/about" style={{ textDecoration: "none", color: "#333" }}>
-        About Me
-      </Link>
-      <Link to="/contact" style={{ textDecoration: "none", color: "#333" }}>
-        Contact Us
-      </Link>
+      <Link to="/" >Home</Link>
+      <Link to="/about" >About Me</Link>
+      <Link to="/contact" >Contact Us</Link>
       </li>
     </nav>
   );
